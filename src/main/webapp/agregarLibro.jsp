@@ -16,7 +16,9 @@
 </header>
 
 <main>
-    <form action="procesarLibro" method="post">
+
+    <form action="agregarLibro" method="post">
+
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required><br>
 
