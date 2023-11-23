@@ -34,9 +34,8 @@
 <!-- JavaScript para la funcionalidad del botón Agregar Libro -->
 <script>
     function agregarLibro() {
-        // Aquí puedes agregar la lógica para redirigir a la página de agregar libro
-        // Puedes utilizar JavaScript para navegar a otra página o hacer una petición AJAX
-        alert("Redirige a la página de agregar libro");
+        // Redirige a la página agregarLibro.jsp
+        window.location.href = "agregarLibro.jsp";
     }
 </script>
 
